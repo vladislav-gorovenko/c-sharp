@@ -5,62 +5,80 @@ class Program
     static void Main(string[] args)
     {
         // Section 2: Primitive Types 
-        Program.RunIfEnabled(Section2PrimitiveTypes.Numbers);
-        Program.RunIfEnabled(Section2PrimitiveTypes.StringsAndCharacters);
-        Program.RunIfEnabled(Section2PrimitiveTypes.ConvertFromStringToNumbers);
-        Program.RunIfEnabled(Section2PrimitiveTypes.BooleanDatatype);
-        Program.RunIfEnabled(Section2PrimitiveTypes.RemainderOperator);
-        Program.RunIfEnabled(Section2PrimitiveTypes.RemainderOperator);
-        Program.RunIfEnabled(Section2PrimitiveTypes.VarAndConst);
-        Program.RunIfEnabled(Section2PrimitiveTypes.AdvancedDataTypes);
-        Program.RunIfEnabled(Section2PrimitiveTypes.ExerciseOne);
-        Program.RunIfEnabled(Section2PrimitiveTypes.ExerciseTwo);
-        Program.RunIfEnabled(Section2PrimitiveTypes.ExerciseFour);
+        RunIfEnabled(Section2PrimitiveTypes.Numbers);
+        RunIfEnabled(Section2PrimitiveTypes.StringsAndCharacters);
+        RunIfEnabled(Section2PrimitiveTypes.ConvertFromStringToNumbers);
+        RunIfEnabled(Section2PrimitiveTypes.BooleanDatatype);
+        RunIfEnabled(Section2PrimitiveTypes.RemainderOperator);
+        RunIfEnabled(Section2PrimitiveTypes.RemainderOperator);
+        RunIfEnabled(Section2PrimitiveTypes.VarAndConst);
+        RunIfEnabled(Section2PrimitiveTypes.AdvancedDataTypes);
+        RunIfEnabled(Section2PrimitiveTypes.ExerciseOne);
+        RunIfEnabled(Section2PrimitiveTypes.ExerciseTwo);
+        RunIfEnabled(Section2PrimitiveTypes.ExerciseFour);
         
         // Section 3: Control Flow
-        Program.RunIfEnabled(Section3ContentFlow.ConsoleInputOutput);
-        Program.RunIfEnabled(Section3ContentFlow.IfStatements);
-        Program.RunIfEnabled(Section3ContentFlow.TaskOne);
-        Program.RunIfEnabled(Section3ContentFlow.SwitchStatements);
-        Program.RunIfEnabled(Section3ContentFlow.TaskTwo);
-        Program.RunIfEnabled(Section3ContentFlow.ForLoops);
-        Program.RunIfEnabled(Section3ContentFlow.TaskThree);
-        Program.RunIfEnabled(Section3ContentFlow.WhileLoop);
-        Program.RunIfEnabled(Section3ContentFlow.GuessNumberWithWhile);
-        Program.RunIfEnabled(Section3ContentFlow.TaskFour);
-        Program.RunIfEnabled(Section3ContentFlow.ConditionOperator);
-        Program.RunIfEnabled(Section3ContentFlow.TaskFive);
-        Program.RunIfEnabled(Section3ContentFlow.StringFormat);
-        Program.RunIfEnabled(Section3ContentFlow.TaskSix);
-        Program.RunIfEnabled(Section3ContentFlow.TryParse);
-        Program.RunIfEnabled(Section3ContentFlow.TaskSeven);
-        Program.RunIfEnabled(Section3ContentFlow.ConsoleTextColorAndCustomisation);
-        Program.RunIfEnabled(Section3ContentFlow.ExerciseOneTimesTable);
-        Program.RunIfEnabled(Section3ContentFlow.ExerciseTwoAgeCheckOutput);
-        Program.RunIfEnabled(Section3ContentFlow.ExerciseFourFactorial);
-        Program.RunIfEnabled(Section3ContentFlow.ExerciseFiveFizzBuzz);
-        Program.RunIfEnabled(Section3ContentFlow.ExerciseSixBirthYear);
-        Program.RunIfEnabled(Section3ContentFlow.ExerciseSevenDaysOfTheWeek);
-        Program.RunIfEnabled(Section3ContentFlow.ExerciseEightPrintOddOrEvent);
-        Program.RunIfEnabled(Section3ContentFlow.ExerciseNineTriangle);
-        Program.RunIfEnabled(Section3ContentFlow.ExerciseThirteenOddOrEven);
+        RunIfEnabled(Section3ContentFlow.ConsoleInputOutput);
+        RunIfEnabled(Section3ContentFlow.IfStatements);
+        RunIfEnabled(Section3ContentFlow.TaskOne);
+        RunIfEnabled(Section3ContentFlow.SwitchStatements);
+        RunIfEnabled(Section3ContentFlow.TaskTwo);
+        RunIfEnabled(Section3ContentFlow.ForLoops);
+        RunIfEnabled(Section3ContentFlow.TaskThree);
+        RunIfEnabled(Section3ContentFlow.WhileLoop);
+        RunIfEnabled(Section3ContentFlow.GuessNumberWithWhile);
+        RunIfEnabled(Section3ContentFlow.TaskFour);
+        RunIfEnabled(Section3ContentFlow.ConditionOperator);
+        RunIfEnabled(Section3ContentFlow.TaskFive);
+        RunIfEnabled(Section3ContentFlow.StringFormat);
+        RunIfEnabled(Section3ContentFlow.TaskSix);
+        RunIfEnabled(Section3ContentFlow.TryParse);
+        RunIfEnabled(Section3ContentFlow.TaskSeven);
+        RunIfEnabled(Section3ContentFlow.ConsoleTextColorAndCustomisation);
+        RunIfEnabled(Section3ContentFlow.ExerciseOneTimesTable);
+        RunIfEnabled(Section3ContentFlow.ExerciseTwoAgeCheckOutput);
+        RunIfEnabled(Section3ContentFlow.ExerciseFourFactorial);
+        RunIfEnabled(Section3ContentFlow.ExerciseFiveFizzBuzz);
+        RunIfEnabled(Section3ContentFlow.ExerciseSixBirthYear);
+        RunIfEnabled(Section3ContentFlow.ExerciseSevenDaysOfTheWeek);
+        RunIfEnabled(Section3ContentFlow.ExerciseEightPrintOddOrEvent);
+        RunIfEnabled(Section3ContentFlow.ExerciseNineTriangle);
+        RunIfEnabled(Section3ContentFlow.ExerciseThirteenOddOrEven);
         
         // Section 4: String functions
-        Program.RunIfEnabled(Section4String.Interpolation);
-        Program.RunIfEnabled(Section4String.Empty);
-        Program.RunIfEnabled(Section4String.ComparisonWithEqualSignAndEqualsMethod);
-        Program.RunIfEnabled(Section4String.Contains);
-        Program.RunIfEnabled(Section4String.Insert);
-        Program.RunIfEnabled(Section4String.Replace);
-        Program.RunIfEnabled(Section4String.IndexOf);
-        Program.RunIfEnabled(Section4String.Remove);
-        Program.RunIfEnabled(Section4String.Substring);
-        Program.RunIfEnabled(Section4String.IterateOverString);
-        Program.RunIfEnabled(Section4String.NullOrEmpty);
-        Program.RunIfEnabled(Section4String.StringBuilder);
-        Program.RunIfEnabled(Section4String.ExerciseOneReadStringPrintLength);
-        Program.RunIfEnabled(Section4String.ExerciseTwoPrintInReverse);
-        Program.RunIfEnabled(Section4String.ExerciseThreePassword);
+        RunIfEnabled(Section4String.Interpolation);
+        RunIfEnabled(Section4String.Empty);
+        RunIfEnabled(Section4String.ComparisonWithEqualSignAndEqualsMethod);
+        RunIfEnabled(Section4String.Contains);
+        RunIfEnabled(Section4String.Insert);
+        RunIfEnabled(Section4String.Replace);
+        RunIfEnabled(Section4String.IndexOf);
+        RunIfEnabled(Section4String.Remove);
+        RunIfEnabled(Section4String.Substring);
+        RunIfEnabled(Section4String.IterateOverString);
+        RunIfEnabled(Section4String.NullOrEmpty);
+        RunIfEnabled(Section4String.StringBuilder);
+        RunIfEnabled(Section4String.ExerciseOneReadStringPrintLength);
+        RunIfEnabled(Section4String.ExerciseTwoPrintInReverse);
+        RunIfEnabled(Section4String.ExerciseThreePassword);
+        
+        // Section 5: Data Structures
+        RunIfEnabled(Section5DataStructures.StaticArrays);
+        RunIfEnabled(Section5DataStructures.StaticArraysForAnglesExercise);
+        RunIfEnabled(Section5DataStructures.ExerciseOneShoppingList);
+        RunIfEnabled(Section5DataStructures.Sorting);
+        RunIfEnabled(Section5DataStructures.SortingReverse);
+        RunIfEnabled(Section5DataStructures.CopyArrays);
+        RunIfEnabled(Section5DataStructures.Clear);
+        RunIfEnabled(Section5DataStructures.TaskShoppingList);
+        RunIfEnabled(Section5DataStructures.IndexOf);
+        RunIfEnabled(Section5DataStructures.MultidimensionalArray);
+        RunIfEnabled(Section5DataStructures.List);
+        RunIfEnabled(Section5DataStructures.Dictonary);
+        RunIfEnabled(Section5DataStructures.ExerciseDictionaryNameAge);
+        RunIfEnabled(Section5DataStructures.ExerciseOneList);
+        RunIfEnabled(Section5DataStructures.ExerciseTwoArrayOfMultiples);
+        RunIfEnabled(Section5DataStructures.ExerciseThreeTicTacToeGame, true);
     }
     
     static void RunIfEnabled(Action action, bool runModule = false)
