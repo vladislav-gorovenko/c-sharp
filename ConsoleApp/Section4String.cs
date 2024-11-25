@@ -23,6 +23,7 @@ public class Section4String
         Console.WriteLine(string.Empty == "");
 
         string name = "John";
+        name += " is empty";
         string name2 = new string(new char[] { 'J', 'o', 'h', 'n' });
 
         Console.WriteLine(name == name2);
