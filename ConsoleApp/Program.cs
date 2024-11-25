@@ -78,7 +78,25 @@ class Program
         RunIfEnabled(Section5DataStructures.ExerciseDictionaryNameAge);
         RunIfEnabled(Section5DataStructures.ExerciseOneList);
         RunIfEnabled(Section5DataStructures.ExerciseTwoArrayOfMultiples);
-        RunIfEnabled(Section5DataStructures.ExerciseThreeTicTacToeGame, true);
+        RunIfEnabled(Section5DataStructures.ExerciseThreeTicTacToeGame);
+        
+        // Section 6: Functions
+        RunIfEnabled(Section6Functions.IntroToFunctions);
+        RunIfEnabled(Section6Functions.Introduction);
+        RunIfEnabled(Section6Functions.HelloBye);
+        RunIfEnabled(Section6Functions.ReturnTypeMethods);
+        RunIfEnabled(Section6Functions.DefaultParameters);
+        RunIfEnabled(Section6Functions.NamedParameters);
+        RunIfEnabled(Section6Functions.OutParameter);
+        RunIfEnabled(Section6Functions.MyOwnTryParse);
+        RunIfEnabled(Section6Functions.FunctionOverloading);
+        
+        // Section 7: Exception Handling
+        RunIfEnabled(Section7ExceptionHandling.TryExcept);
+        RunIfEnabled(Section7ExceptionHandling.ThrowingException, true);
+        
+        // Section 8: Debugging
+        RunIfEnabled(Section8Debugging.Assert, true);
     }
     
     static void RunIfEnabled(Action action, bool runModule = false)
