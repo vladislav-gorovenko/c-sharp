@@ -96,7 +96,16 @@ class Program
         RunIfEnabled(Section7ExceptionHandling.ThrowingException, true);
         
         // Section 8: Debugging
-        RunIfEnabled(Section8Debugging.Assert, true);
+        RunIfEnabled(Section8Debugging.Assert);
+        
+        // Section 9: OOP
+        RunIfEnabled(Section9OOP.Struct);
+        RunIfEnabled(Section9OOP.BoxStructure);
+        RunIfEnabled(Section9OOP.Classes);
+        RunIfEnabled(Section9OOP.JustPlaying);
+        RunIfEnabled(Section9OOP.Fields);
+        RunIfEnabled(Section9OOP.Overriding);
+        RunIfEnabled(Section9OOP.Inheritance, true);
     }
     
     static void RunIfEnabled(Action action, bool runModule = false)
